@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caches and logs
+.cache/
+*.log
+mlruns/
+*.db
+
+# Training outputs & checkpoints
+Output/
+Training_Log/
+Wave_sort/
+model/*.pth
+model/rPPGNet_*
+model/cv_*
+
+# Generated indexes and datasets
+STMap/
+STMap_my/
+STMap_Index/
+STMap_Index_my_regions/
+data/
+
+# Data binaries / figures dumps
+*.mat
+*.png
+*.csv
+
+# Exceptions: keep documentation figures or assets if added in docs/
+!docs/*.png
+!docs/*.jpg
+
+# IDEs & OS files
+.DS_Store
+.vscode/
+.cursor/
+.idea/
+.ipynb_checkpoints/
