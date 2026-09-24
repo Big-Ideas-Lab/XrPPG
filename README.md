@@ -116,7 +116,6 @@ Evaluation calculates:
 - **Std** (Standard Deviation of Error)
 - **MAE** (Mean Absolute Error in BPM)
 - **RMSE** (Root Mean Square Error in BPM)
-- **Mean Guessing Baseline** (Baseline comparison using source domain mean HR)
 
 ---
 
